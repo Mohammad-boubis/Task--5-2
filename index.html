@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>تحويل الواحدات</title>
+</head>
+<body>
+    <div class="container">
+        <h1>تحويل الوحدات</h1>
+        <input type="number" id="valueInput" placeholder="أدخل القيمة">
+        
+        <select id="fromUnit">
+            <option value="متر">متر</option>
+            <option value="كيلومتر">كيلومتر</option>
+            <option value="سنتيمتر">سنتيمتر</option>
+            <option value="ميل">ميل</option>
+            <option value="قدم">قدم</option>
+            <option value="بوصة">بوصة</option>
+        </select>
+        
+        <select id="toUnit">
+            <option value="متر">متر</option>
+            <option value="كيلومتر">كيلومتر</option>
+            <option value="سنتيمتر">سنتيمتر</option>
+            <option value="ميل">ميل</option>
+            <option value="قدم">قدم</option>
+            <option value="بوصة">بوصة</option>
+        </select>
+        
+        <button id="convertButton">تحويل</button>
+        
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
